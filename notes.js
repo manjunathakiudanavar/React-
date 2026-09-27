@@ -29,4 +29,25 @@
 //         </div>
 //     )
 //  }
-//  export default App;
+// INCEPTION OF THE COMPONENT
+//  export default App;import React from 'react';
+// import ReactDOM from 'react-dom/client';
+// import Mobile from './mobile.js';
+
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(
+//   <React.StrictMode>
+//     < Mobile/>
+//   </React.StrictMode>
+// ); 
+//  import React from 'react'
+ 
+// function Mobile() {
+//    return (
+//      <div>
+//        <h1> hello iam manjunath </h1>
+//      </div>
+//    )
+//  }
+//   export default Mobile;
+
