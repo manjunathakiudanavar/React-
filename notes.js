@@ -51,3 +51,7 @@
 //  }
 //   export default Mobile;
 
+// whenever we are loading the img rmember we have to write <img src='image address'/> after this closing arrow only we have to write Header or p 
+// if we are applying css we have to import directly css file itslef './Mobile.css'
+
+
