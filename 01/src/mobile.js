@@ -1,11 +1,15 @@
  import React from 'react'
+ import MobileList from './MobileList';
  
 function Mobile() {
    return (
      <div>
-       <h1> hello iam manjunath </h1>
+       <MobileList/>
+       <MobileList/>
+       <MobileList/>
+       <MobileList/>
+       <MobileList/>
      </div>
    )
  }
   export default Mobile;
- 
