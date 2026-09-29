@@ -52,6 +52,9 @@
 //   export default Mobile;
 
 // whenever we are loading the img rmember we have to write <img src='image address'/> after this closing arrow only we have to write Header or p 
-// if we are applying css we have to import directly css file itslef './Mobile.css'
+// if we are applying css we have to import directly css file itslef './Mobile.css''
 
+// Props >> props are the data send to parent to child component 
+// to use props we have to set in the the values using 
+// Remember this differance whenever you export the particular document and import it into another document the exported document will become child document and imported document becomes parent component
 

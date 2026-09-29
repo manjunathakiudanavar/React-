@@ -4,9 +4,9 @@
 function Mobile() {
    return (
      <div>
-       <MobileList/>
-       <MobileList/>
-       <MobileList/>
+       <MobileList price={80000}/>
+       <MobileList price={90000}/>
+       <MobileList price={100000}/>
        <MobileList/>
        <MobileList/>
      </div>
