@@ -2,9 +2,8 @@ import React from 'react'
 import './MobileList.css'
 
  function MobileList(props) {
-    const image="https://m.media-amazon.com/images/I/81cEgv9e-RL._SL1500_.jpg"
-    
-   return (
+    const{image,price}=props;
+    return (
     <div className='main'>
         {console.log(props)}
         
@@ -14,7 +13,7 @@ import './MobileList.css'
      />
      <div>
      <h2>Iphone 18 Pro</h2>
-     <p>Price:{props.price}</p>
+     <p>Price:{price}</p>
      <button>Add to cart</button>
      </div>
     </div>

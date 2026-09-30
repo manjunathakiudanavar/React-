@@ -57,4 +57,64 @@
 // Props >> props are the data send to parent to child component 
 // to use props we have to set in the the values using 
 // Remember this differance whenever you export the particular document and import it into another document the exported document will become child document and imported document becomes parent component
+// first we create a file for data and the data will be in jason format 
+//  [
+//     {
+//      " image ":
+//       "https://m.media-amazon.com/images/I/81cEgv9e-RL._SL1500_.jpg",
+//       "price": "80000"
+//     }
+//     ,
+//     {
+//         "image ":"https://m.media-amazon.com/images/I/71WbAwLW7OL._SL1500_.jpg",
+//         "price":"90000"
+//     }
+   
+//  ] and will imports this parent component and we map it using json file file name 
 
+// then in parent component will map the the element through for example {books.map((ele)=>{
+    // 
+    // ele.image
+    // ele.price})}
+    //  import React from 'react'
+//  import MobileList from './MobileList';
+//  import books from './books.json'
+ 
+// function Mobile() {
+//    return (
+//      <div>
+//       {books.map((ele)=>{
+//         return <MobileList
+//         price= {ele.price}
+//         image={ele.image}
+//         />
+//       })}
+//      </div>
+//    )
+//  }
+//   export default Mobile;
+// then from child component we
+
+
+// import React from 'react'
+// import './MobileList.css'
+
+//  function MobileList(props) {
+//     const{image,price}=props;
+//     return (
+//     <div className='main'>
+//         {console.log(props)}
+        
+//      <img className='image' src={image}
+//       alt="Mobile"
+//      width="300"
+//      />
+//      <div>
+//      <h2>Iphone 18 Pro</h2>
+//      <p>Price:{price}</p>
+//      <button>Add to cart</button>
+//      </div>
+//     </div>
+//   )
+// }
+// export default MobileList;

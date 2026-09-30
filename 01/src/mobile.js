@@ -1,14 +1,17 @@
  import React from 'react'
  import MobileList from './MobileList';
+ import books from './books.json'
  
 function Mobile() {
    return (
      <div>
-       <MobileList price={80000}/>
-       <MobileList price={90000}/>
-       <MobileList price={100000}/>
-       <MobileList/>
-       <MobileList/>
+      {books.map((ele)=>{
+        return <MobileList
+         image={ele.image}
+        price= {ele.price}
+       
+        />
+      })}
      </div>
    )
  }
