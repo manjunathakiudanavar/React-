@@ -144,3 +144,41 @@
 //    )
 //  }
 //  export default App
+
+// remove and update with jason data 
+// import React, {useState} from 'react';
+// import Datas from './ Datas.json'
+
+// const Data = () => {
+//      const [nData,setnData]= useState(Datas);
+//      const handleRemove = (itemID)=>{ this is for handleRemove variable itemID
+//         setnData(nData.filter(item => item.id!==itemID)) here the itemID and item.id if they !== condition turn false then they will be exculded
+//      }
+     
+     
+//   return (
+//     <div>
+//       <ul>
+//         {
+//         nData.map(items => here the variable is for map to display the data from the jason to document in the sense page
+//          <li key ={items.id}>
+//             {items.name}
+//             <br/>
+//             <button onClick={()=>handleRemove(items.id)} >Remove</button> here the argument is passed as items.id and it will go to handleRemove function(itemID) 
+            
+//         </li>
+        
+//         )
+//         }
+        
+
+       
+//       </ul>
+//       <br/>
+      
+//       <button onclick>Clear</button>
+//     </div>
+//   )
+// }
+
+// export default Data
