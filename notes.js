@@ -61,11 +61,7 @@
 //  [
 //     {
 //      " image ":
-//       "https://m.media-amazon.com/images/I/81cEgv9e-RL._SL1500_.jpg",
-//       "price": "80000"
-//     }
-//     ,
-//     {
+//       "htt
 //         "image ":"https://m.media-amazon.com/images/I/71WbAwLW7OL._SL1500_.jpg",
 //         "price":"90000"
 //     }
@@ -117,7 +113,11 @@
 //     </div>
 //   )
 // }
-// export default MobileList;
+// export default MobileList;ps://m.media-amazon.com/images/I/81cEgv9e-RL._SL1500_.jpg",
+//       "price": "80000"
+//     }
+//     ,
+//     {
 
 
 // Use state returns array with set of current value and set function [value,some function ]
@@ -231,3 +231,52 @@
 // }
 
 // export default Data 
+
+
+// here we work on multistate and multistate to one state using spread operator
+// import React from 'react'
+//  import { useState } from 'react'
+ 
+//  const Forms = () => {
+//     // const[name, setName]=useState("").  |                                            
+//     // const[Email,setEmail]=useState("")  |
+//     // const handleName= (e)=>{            |           
+//     //     console.log(e.target.value)     |
+//     //     setName(e.target.value)         |   =========> this whole snippet belongs to multistate it keeps current value and upsating value when type in setName take the input and passess to current value that means the previous wont change because everytime it important (React keeps the previous value because it stores the updated state between renders.)
+//     // }                                   |
+//     // const handleEmail= (e)=>{           |
+//     //     console.log(e.target.value)     |
+//     //     setEmail(e.target.value)        |
+//     // }                                   |
+//     const[formData,setFormData]=useState({. here setformdata is the function later itll be updated here by calling the setFormData function with e.target.value
+//         name:"",
+//         Email:""
+//     })
+//     const handleName=(e)=>{
+//         setFormData({
+//             ...formData,
+//             name: e.target.value 
+//         }); here FormData copies existing property name:",email:"" " the new property and updates it to the object and setformdta called to update the state with new property 
+
+//     };
+//     const handleEmail=(e)=>{
+//         setFormData({
+//             ...formData,
+//             Email:e.target.value
+//         });
+//     };
+//    return (
+//      <div>
+//        <label >
+//         name:
+//         <input type='text' value={formData.name} onChange={handleName} />
+//         <br/>
+//         Email:
+//         <input type='text' value={formData.Email} onChange={handleEmail}/>
+//         </label>
+//      </div>
+//    );
+//  }
+ 
+//  export default Forms;
+ 

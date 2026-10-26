@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Data from './Data';
+import Forms from './forms'
+
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Data/>
+    <Forms/>
   </React.StrictMode>
 );
 
