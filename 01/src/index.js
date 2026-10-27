@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Forms from './forms'
+import UseEffect from './useEffect'
 
 
 
@@ -8,7 +8,7 @@ import Forms from './forms'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Forms/>
+    <UseEffect/>
   </React.StrictMode>
 );
 
