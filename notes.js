@@ -303,4 +303,34 @@
 //  }
  
 //  export default UseEffect
+
+// clean up 
+//  import React from 'react'
+//  import {useState , useEffect} from 'react' 
+ 
+//  const UseEffect = () => {
+//         const [clicked,setClicked]=useState();
+//     const[count,setCount]=useState(0);
+//     useEffect(()=>{
+//         alert("iam clicked")
+//         return (                    ========>>>>> this is the clean up code we write it in the use effect  to stop the particular code running in the useeffect code hence for example set time out some alerts and all and this  return function executes first then useeffect code 
+//         ()=>{
+//             console.log("cleaned the useless running code");
+//         }
+//     )
+//     },[clicked])
+    
+//    return (
+
+//      <div>
+//        <button onClick= {()=> setClicked("Subscribe")} >Subscribe</button>
+//        <br/>
+//               <button onClick= {()=> setClicked("to")} >to</button>
+//               <button onClick= {()=> setCount(count+1)}>Increse</button>
+//               <h1>{count}</h1>
+//      </div>
+//    )
+//  }
+ 
+//  export default UseEffect
  

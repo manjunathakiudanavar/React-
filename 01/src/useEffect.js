@@ -6,7 +6,13 @@
     const[count,setCount]=useState(0);
     useEffect(()=>{
         alert("iam clicked")
+        return (
+        ()=>{
+            console.log("cleaned the useless running code");
+        }
+    )
     },[clicked])
+    
    return (
 
      <div>
