@@ -308,7 +308,7 @@
 //  import React from 'react'
 //  import {useState , useEffect} from 'react' 
  
-//  const UseEffect = () => {
+//  const UseEffect = () => {. =====>> this file name 
 //         const [clicked,setClicked]=useState();
 //     const[count,setCount]=useState(0);
 //     useEffect(()=>{
@@ -333,4 +333,42 @@
 //  }
  
 //  export default UseEffect
- 
+
+// 
+x
+// import { useState, useEffect } from 'react';
+
+// const Fetch = () => {
+//   const [users, setUsers] = useState([]);
+
+//   useEffect(() => {
+//     fetch('https://api.github.com/users')
+//       .then((response) => response.json())
+//       .then((data) => {
+//         setUsers(data);
+//       })
+//       .catch((error) => {
+//         console.error('Error fetching users:', error);
+//       });
+//   }, []);
+
+//   return (
+//     <div>
+//       <h1>User List</h1>
+
+//       <ul>
+//         {users.map((user) => {
+//           return (
+//             <li key={user.id}>
+//               <a href={user.html_url} target="_blank" rel="noreferrer">
+//                 {user.login}
+//               </a>
+//             </li>
+//           );
+//         })}
+//       </ul>
+//     </div>
+//   );
+// };
+
+// export default Fetch;
